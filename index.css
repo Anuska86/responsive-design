@@ -57,6 +57,10 @@ article {
   height: 100%;
 }
 
+article:hover img {
+  transform: scale(1.05);
+}
+
 .article-header {
   box-sizing: border-box;
   padding: 1em;
