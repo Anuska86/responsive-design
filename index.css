@@ -22,6 +22,16 @@ main {
   gap: 1em;
 }
 
+footer {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+footer p {
+  color: #a0a0a0;
+}
+
 /* =================
     Article Card 
    ================= */
@@ -48,6 +58,16 @@ article {
   box-sizing: border-box;
   padding: 1em;
   width: 100%;
+}
+
+.site-header {
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.site-header h1 {
+  color: #00d4ff;
+  text-shadow: 0 0 12px rgba(0, 212, 255, 0.3);
 }
 
 /* =================
