@@ -93,3 +93,25 @@ img {
   border-top-left-radius: 0.2em;
   border-top-right-radius: 0.2em;
 }
+
+/* =================
+    Media
+   ================= */
+
+@media (min-width: 500px) {
+  main {
+    display: grid;
+    grid-template: 1fr 1fr;
+  }
+  .technology {
+    grid-column: span 2;
+  }
+
+  .nasa {
+    grid-row: span 2;
+  }
+
+  .health {
+    grid-column: span 2;
+  }
+}
