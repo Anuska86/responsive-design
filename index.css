@@ -29,7 +29,10 @@ footer {
 }
 
 footer p {
-  color: #a0a0a0;
+  color: #8b0e77;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /* =================
@@ -66,8 +69,10 @@ article {
 }
 
 .site-header h1 {
-  color: #00d4ff;
-  text-shadow: 0 0 12px rgba(0, 212, 255, 0.3);
+  color: #6b848b;
+  border-bottom: 2px solid #5d0e50;
+  display: inline-block;
+  padding-bottom: 0.2rem;
 }
 
 /* =================
